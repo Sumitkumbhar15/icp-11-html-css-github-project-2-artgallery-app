@@ -54,6 +54,7 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    background-color: white;
 } 
 
 .dropdown:hover .dropdown-content{
