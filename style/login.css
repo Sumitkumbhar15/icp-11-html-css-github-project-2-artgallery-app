@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    padding:0;
+    background-image:url(../assets/images/login-background.jpg) ;
+} 
+ 
+ .login-container{
+    border:1px solid black;
+    margin: auto;
+    width:400px;
+    border-radius:15px;
+    padding:7px;
+    box-shadow: 0 0 10px 5px gray;
+    margin-top:150px;
+    background-color:#FFD0C7;
+}
+.login-icon{
+    height:100px;
+    display:block;
+    margin:0 auto;
+    margin-top:15px;
+}
+.login-brand{
+    text-align: center;
+}
+.username{
+    font-size:15px;
+    padding:15px 20px;
+    display:block;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 25px;
+}
+.login-pass{
+    font-size:15px;
+    padding:15px 20px;
+    display:block;
+    margin:0 auto;
+    text-align: center;
+    margin-top:25px;
+}
+.login-btn{
+    text-decoration: none;
+    font-size:20px;
+    border-radius:25px;
+    padding:10px 20px;
+    display:block;
+    margin:25px auto;
+}
+.login-btn:hover{
+    box-shadow:0 0 5px 2px gray;
+}
