@@ -1,0 +1,47 @@
+.sale{
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color:white;
+}
+.intro{
+    margin: 2px;
+    padding: 3px;
+}
+.divider{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.container{
+    padding: 2px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.painting{
+    width: auto;
+    margin: 10px;
+}
+#about{
+    font-size: 23px;
+    padding: 20px 70px;
+    align-items: center;
+}
+.end-menu{
+    background-color: #cf2e2e;
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+.sub-menu{
+    padding: 0%;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px;
+}
