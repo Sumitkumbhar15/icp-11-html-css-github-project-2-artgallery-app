@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="../style/style.css" />
     <style>
-        body {
+        .body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
+            height: 100vh;
+        }
+        .box{
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            margin: 50px;
         }
         .container {
             background: #fff;
@@ -55,27 +59,46 @@
     </style>
 </head>
 <body>
-   <div class="container">
-    <h2>Contact Us</h2>
-    <form>
-        <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" name="name" placeholder="Enter Your Name" required>
+    <div class="navbar">
+        <a href="../index.html" class="logo"><h1 class="header">CANVAS & CO.</h1></a>
+        <div class="nav-links">
+            <a href="" class="nav-menu">Paintings</a>
+            <a href="" class="nav-menu">Sketchs</a>
+            <a href="" class="nav-menu">Sculpture</a>
+            <span class="dropdown"><a href="" class="nav-menu"><i class="fa-solid fa-bars"></i></a>
+               <span class="dropdown-content">
+                   <a href="" class="nav-menu-dropdown">Contact us</a>
+                   <a href="" class="nav-menu-dropdown">About us</a>
+                   <a href="" class="nav-menu-dropdown">Login</a>
+               </span>
+            </span>
         </div>
-        <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" placeholder="Enter Your Email" name="email" required>
-        </div>
-        <div class="form-group">
-            <label for="subject">Subject</label>
-            <input type="text" placeholder="Write a Subject" name="subject" required>
-        </div>
-        <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
-        </div>
-        <button type="submit">Send Message</button>
-    </form>
-</div>
+    </div>
+   <div class="box">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter Your Email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" placeholder="Write a Subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+   </div>
+<script src="https://kit.fontawesome.com/9199668c31.js" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>
