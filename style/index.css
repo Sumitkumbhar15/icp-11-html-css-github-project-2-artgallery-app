@@ -29,14 +29,14 @@
 }
 
 .painting{
-    width: auto;
+    width: 100px;
     margin: 10px;
     border: 2px solid black;
     box-shadow: 2px 2px 10px 5px black;
 }
 
 .painting{
-    width: auto;
+    width: 100%;
     margin: 10px;
 }
 
