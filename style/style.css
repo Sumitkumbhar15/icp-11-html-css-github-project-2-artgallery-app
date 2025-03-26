@@ -11,8 +11,10 @@
     align-items: center;
     padding: 15px 20px;
     background: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 7px 3px grey;
     flex-wrap: wrap;
+    position: sticky;
+    top: 5px;
 }
 
 .header {
