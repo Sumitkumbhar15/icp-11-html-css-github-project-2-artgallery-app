@@ -57,17 +57,20 @@ body {
 
 .end-menu {
     background-color: antiquewhite;
+    color: black;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     padding: 40px;
     font-size: 20px;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start; 
+    box-sizing: border-box; 
 }
 
 .sub-menu {
     padding: 0%;
-    
+    margin: 10px; 
 }
 
 .links {
@@ -76,19 +79,31 @@ body {
     font-size: 20px;
     font-weight: normal;
     padding: 10px;
+    display: block; 
 }
-.sub-menu p{
+.sub-menu i{
+    display: inline;
+}
+.sub-menu a{
+    display: inline;
+}
+.sub-menu p {
     line-height: 24px;
 }
+.sub-menu span{
+    display: inline;
+}
 
+.painting:hover{
+    transform: scale(1.03);
+    transition: 0.5s ease-in-out;
+}
 .painting p {
     
     color: #333;
     padding: 15px;
     margin: 0;
     background: #f9f5f0;
-
-   
     line-height: 1.6;
     font-size: 15px;
     box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
@@ -96,7 +111,6 @@ body {
 
 .painting:hover p {
     background: #fff;
-   
     border-left-width: 5px;
 }
 
@@ -106,11 +120,29 @@ body {
         padding: 12px;
         font-size: 14px;
     }
+    .end-menu {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+    }
+    
+    .sub-menu {
+        width: 100%;
+        text-align: center;
+        margin: 15px 0;
+    }
+    
+    .links {
+        padding: 8px;
+    }
 }
 @media (max-width: 1024px) {
    
     .container, .containers {
         justify-content: center;
+    }
+    .end-menu {
+        padding: 30px; 
     }
 }
 
@@ -139,5 +171,17 @@ body {
     
     #about {
         font-size: 18px;
+    }
+    .end-menu {
+        padding: 20px 15px;
+        font-size: 18px;
+    }
+    
+    .links {
+        font-size: 18px;
+    }
+    
+    .sub-menu p {
+        line-height: 22px;
     }
 }
