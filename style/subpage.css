@@ -1,127 +1,188 @@
-
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background: #f4f4f9;
-    color: #333;
-  }
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f4f4f9;
+  color: #333;
+}
 
+.artwork-detail {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1.5rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.artwork-image {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.artwork-image img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.artwork-image img:hover {
+  transform: scale(1.03);
+}
+
+.artwork-info {
+  width: 100%;
+  text-align: left;
+  padding: 0 10px;
+}
+
+.artwork-info h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.artwork-info .artist {
+  font-size: 1.1rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+.artwork-info .rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.artwork-info .stars {
+  color: #ffd700;
+  margin-right: 8px;
+}
+
+.artwork-info .rating-value {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.artwork-info .description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 1.2rem;
+}
+
+.artwork-info .details {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.2rem;
+}
+
+.artwork-info .details p {
+  margin: 0.4rem 0;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.artwork-info .price {
+  font-size: 1.2rem;
+  color: #ff6f61;
+  font-weight: bold;
+}
+
+.artwork-info .actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.artwork-info .btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.artwork-info .btn:hover {
+  background: #555;
+}
+
+.artwork-info .btn-buy {
+  background: #ff6f61;
+}
+
+.artwork-info .btn-buy:hover {
+  background: #e65a50;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) {
   .artwork-detail {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 2rem;
-    gap: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
+      flex-direction: row;
+      padding: 1.5rem;
+      gap: 2rem;
   }
   
   .artwork-image {
-    flex: 1;
-    max-width: 600px;
-    overflow: hidden;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  }
-  
-  .artwork-image img {
-    width: 100%;
-    transition: transform 0.5s ease;
-  }
-  
-  .artwork-image img:hover {
-    transform: scale(1.05);
+      flex: 1;
+      max-width: 50%;
   }
   
   .artwork-info {
-    flex: 1;
-    max-width: 500px;
-    text-align: left;
+      flex: 1;
+      max-width: 50%;
+      padding: 0;
   }
   
   .artwork-info h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-    color: #333;
-  }
-  
-  .artwork-info .artist {
-    font-size: 1.2rem;
-    color: #777;
-    margin-bottom: 1rem;
-  }
-  
-  .artwork-info .rating {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1.5rem;
-  }
-  
-  .artwork-info .stars {
-    color: #ffd700;
-    margin-right: 10px;
-  }
-  
-  .artwork-info .rating-value {
-    font-size: 1rem;
-    color: #555;
-  }
-  
-  .artwork-info .description {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #555;
-    margin-bottom: 1.5rem;
-  }
-  
-  .artwork-info .details {
-    background: #fff;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 1.5rem;
-  }
-  
-  .artwork-info .details p {
-    margin: 0.5rem 0;
-    color: #333;
-  }
-  
-  .artwork-info .price {
-    font-size: 1.5rem;
-    color: #ff6f61;
-    font-weight: bold;
+      font-size: 2rem;
   }
   
   .artwork-info .actions {
-    display: flex;
-    gap: 1rem;
+      flex-direction: row;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+  .artwork-detail {
+      max-width: 1200px;
+      padding: 2rem;
+  }
+  
+  .artwork-info h1 {
+      font-size: 2.5rem;
+  }
+  
+  .artwork-info .description {
+      font-size: 1rem;
+  }
+  
+  .artwork-info .details p {
+      font-size: 1rem;
   }
   
   .artwork-info .btn {
-    display: inline-block;
-    background: #333;
-    color: #fff;
-    padding: 0.75rem 1.5rem;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: 0.3s;
-    cursor: pointer;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
   }
-  
-  .artwork-info .btn:hover {
-    background: #555;
-  }
-  
-  .artwork-info .btn-buy {
-    background: #ff6f61;
-  }
-  
-  .artwork-info .btn-buy:hover {
-    background: #e65a50;
-  }
-
-  
+}
