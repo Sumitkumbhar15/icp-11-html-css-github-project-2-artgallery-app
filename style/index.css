@@ -17,11 +17,29 @@
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+    background-color: azure;
+    align-content: center;
 }
+
+.containers{
+    padding: 2px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.painting{
+    width: auto;
+    margin: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px 5px black;
+}
+
 .painting{
     width: auto;
     margin: 10px;
 }
+
 #about{
     font-size: 23px;
     padding: 20px 70px;
