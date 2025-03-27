@@ -47,10 +47,8 @@ Discover a curated collection of stunning artwork, where creativity meets expres
 - HTML5 
 - CSS3
 
-## 🤝 Contribution
+## 👥 Contributors
 
-- Sumit Kumbhar
-- Uddhav Sawant
-- Kanchan Awari
-- Himani Kubade
-- Mahesh Jadhav
+<a href="https://github.com/Sumitkumbhar15/icp-11-html-css-github-project-2-artgallery-app/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Sumitkumbhar15/icp-11-html-css-github-project-2-artgallery-app" />
+</a>
