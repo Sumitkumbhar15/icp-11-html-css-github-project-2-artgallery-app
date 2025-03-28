@@ -23,9 +23,9 @@ Click here to visit our web:- [ARTGALLERY](https://strong-basbousa-a9318d.netlif
 
 ---
   
-# 🎨 Art Gallery App
+**Welcome to ArtGallery 🎨**
 
-Welcome to the **Art Gallery App**, a beautifully designed website that showcases famous artworks from around the world. This project is built using **HTML and CSS** to create an immersive and visually stunning experience.
+Discover a curated collection of stunning artwork, where creativity meets expression. Our gallery showcases a diverse range of art, from contemporary digital pieces to traditional masterpieces, crafted by talented artists from around the world.
 
 **🌟 What We Offer**
 - A visually immersive and user-friendly experience
@@ -40,17 +40,15 @@ Welcome to the **Art Gallery App**, a beautifully designed website that showcase
 
 - Responsive and user-friendly design  
 - Deployed on Netlify for fast performance  
-- Built using modern web technologies 
-  
+- Built using modern web technologies  
+
 ## 🛠️ Technologies Used
 
 - HTML5 
 - CSS3
 
-## 🤝 Contribution
+## 👥 Contributors
 
-- Sumit Kumbhar
-- Uddhav Sawant
-- Kanchan Awari
-- Himani Kubade
-- Mahesh Jadhav
+<a href="https://github.com/Sumitkumbhar15/icp-11-html-css-github-project-2-artgallery-app/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Sumitkumbhar15/icp-11-html-css-github-project-2-artgallery-app" />
+</a>
