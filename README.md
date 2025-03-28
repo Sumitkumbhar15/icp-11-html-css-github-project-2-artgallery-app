@@ -47,30 +47,10 @@ Welcome to the **Art Gallery App**, a beautifully designed website that showcase
 - HTML5 
 - CSS3
 
-   
+## 🤝 Contribution
 
-## 🚀 Getting Started
-
-
-Ensure you have a modern web browser installed.
-
-### Installation
-
-1. **Clone the repository**
-   ```sh
-   https://github.com/Sumitkumbhar15/icp-11-html-css-github-project-2-artgallery-app.git
-   ```
-2. **Navigate to the project folder**
-   ```sh
-   cd icp-11-html-css-github-project-2-artgallery-app
-   ```
-3. **Open `index.html` in your browser**
-
-
-
-## 👥 Contributors
-
-<a href="https://github.com/Sumitkumbhar15/icp-11-html-css-github-project-2-artgallery-app/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Sumitkumbhar15/icp-11-html-css-github-project-2-artgallery-app" />
-</a>
-
+- Sumit Kumbhar
+- Uddhav Sawant
+- Kanchan Awari
+- Himani Kubade
+- Mahesh Jadhav
