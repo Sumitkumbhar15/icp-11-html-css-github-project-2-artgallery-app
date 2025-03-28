@@ -4,14 +4,14 @@ body{
 } 
  
  .login-container{
-    border:1px solid black;
+    border:2px solid black;
     margin: auto;
     width:400px;
     border-radius:15px;
     padding:10px;
     box-shadow: 0 0 10px 5px gray;
     margin-top:110px;
-    background-color:whitesmoke;
+    background-color:#E4EFE7;
 }
 .login-icon{
     height:100px;
@@ -39,6 +39,7 @@ body{
     margin-top:25px;
 }
 .login-btn{
+    background-color: #FAF1E6;
     text-decoration: none;
     font-size:20px;
     border-radius:25px;
@@ -64,14 +65,14 @@ body{
     box-shadow: 1px 1px 5px 2px gray;
 }
 .register-container{
-    border:1px solid black;
+    border:2px solid black;
     width:600px;
     margin:auto;
     padding:10px;
     background-color: white;
     border-radius: 15px;
     margin-top: 110px;
-    background-color: whitesmoke;
+    background-color: #E4EFE7;
     box-shadow: 0 0 10px 5px gray;
 }
 
@@ -87,6 +88,7 @@ body{
 
 }
 .register-btn{
+    background-color:#FAF1E6 ;
     text-decoration: none;
     display: block;
     margin:20px auto;
@@ -111,13 +113,13 @@ body{
 }
 
 .forgot-pass-container{
-    border:1px solid black;
+    border:2px solid black;
     width:400px;
     margin:auto;
     padding:15px;
     border-radius: 10px;
     box-shadow: 0 0 10px 5px gray;
-    background-color: whitesmoke;
+    background-color: #E4EFE7;
     margin-top: 100px;
 }
 
@@ -137,6 +139,7 @@ body{
     margin:20px auto;
 }
 .passchange-btn{
+    background-color: #FAF1E6;
     display:block;
     margin:20px auto;
     padding:10px 15px;
