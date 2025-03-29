@@ -30,7 +30,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly; 
     gap: 20px; 
-    background-color: azure;
+    background-color: white;
 }
 
 
@@ -56,7 +56,7 @@ body {
 }
 
 .end-menu {
-    background-color: antiquewhite;
+    background-color: #cf2e2e;
     color: black;
     width: 100%;
     display: flex;
